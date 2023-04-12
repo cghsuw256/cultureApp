@@ -69,5 +69,16 @@
              Voluptate illo libero molestias recusandae? Animi aperiam, tempore architecto impedit vitae consectetur suscipit perferendis fugiat non? Recusandae voluptatibus aliquam inventore? In, totam?</p>
         </div>
     </div>
+    <script>
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('./service-worker.js')
+                .then((reg) => {
+                    console.log('Service worker registered', reg);
+                })
+                .catch(e => console.log(e));
+            })
+        }
+    </script>
 </body>
 </html>
