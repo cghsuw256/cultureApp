@@ -1,0 +1,16 @@
+{
+  "name": "스쿨패스",
+  "version": "0.0.1",
+  "description": "경소고 출입증 관리 시스템",
+  "icons" : [
+    {
+      "src": "https://example.com/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url":"/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#fff"
+}
